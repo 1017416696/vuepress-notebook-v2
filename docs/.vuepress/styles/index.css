@@ -1,0 +1,7 @@
+/*使用 CSS 选择器覆盖样式时可能会出现样式优先级不够的问题，可以使用 !important 来提高优先级：*/
+.banner-brand__wrapper .banner-brand__content .btn-group {
+    text-align: center  !important;
+}
+.banner-brand__wrapper .banner-brand__content .btn-group .xicon-container {
+    height: 3.5rem !important;
+}
