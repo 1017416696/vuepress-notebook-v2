@@ -2,6 +2,7 @@ export const themeConfig = {
     logo: '/logo.png',
     // 设置文章右侧目录的标题
     catalogTitle: '目录',
+//    全部文章的作者，全局属性
     author: 'Penrose',
     navbar :[
         { text: 'HTML', link: '/docs/HTML/' },
@@ -9,8 +10,12 @@ export const themeConfig = {
         { text: 'Vue', link: '/docs/Vue/' },
         { text: 'Vue-Router', link: '/docs/Vue-Router/' },
     ],
+/*    reco 主题中特有的配置
+      左侧边栏 sideBar更改为series
+*/
     series: {
         '/docs/HTML/': [
+//            对侧边栏进行分组
             {
                 text: 'HTML',
                 collapse: true,
@@ -167,6 +172,16 @@ export const themeConfig = {
                 ]
             }
         ]
+    },
+//    在 reco 主题中配置 algolia 实现全文搜索功能
+    algolia: {
+        appId: 'F241DNK6XV',
+        apiKey: 'db21b2a4360cda777d6f67a6821ad5b8',
+        indexName: '1017416696io',
+        container: '### REPLACE ME WITH A CONTAINER (e.g. div) ###',
+        inputSelector: '### REPLACE ME ####',
+        algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
+        debug: false // Set debug to true if you want to inspect the dropdown
     },
 
 }

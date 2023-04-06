@@ -1,4 +1,5 @@
 /*使用 CSS 选择器覆盖样式时可能会出现样式优先级不够的问题，可以使用 !important 来提高优先级：*/
+/*修改主页中的按钮的位置和高度*/
 .banner-brand__wrapper .banner-brand__content .btn-group {
     text-align: center  !important;
 }

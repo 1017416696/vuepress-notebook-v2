@@ -1232,7 +1232,7 @@
     markdown-it "^13.0.1"
     markdown-it-container "^3.0.0"
 
-"@vuepress/plugin-docsearch@2.0.0-beta.61", "@vuepress/plugin-docsearch@^2.0.0-beta.61":
+"@vuepress/plugin-docsearch@2.0.0-beta.61":
   version "2.0.0-beta.61"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-docsearch/-/plugin-docsearch-2.0.0-beta.61.tgz"
   integrity sha512-/C4A9DIxeLxll1UXgTeOoQqQnA5sBfb5Inek3Lzr4p6yxjeRhFigMctjJzHFAj0JHDEmO1BYVbqh4FxmtZjeVg==
@@ -1270,15 +1270,6 @@
     "@vuepress/utils" "2.0.0-beta.61"
     execa "^7.0.0"
 
-"@vuepress/plugin-google-analytics@^2.0.0-beta.61":
-  version "2.0.0-beta.61"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-2.0.0-beta.61.tgz"
-  integrity sha512-UwjDVtNpqkfEz7S5TPl703Jwhg0V1Xfvz8y5c4y5nQLNRky0/3bOKx8u7e5J3AATtwz0XwI2cmhXtuHFs6IiDA==
-  dependencies:
-    "@vuepress/client" "2.0.0-beta.61"
-    "@vuepress/core" "2.0.0-beta.61"
-    "@vuepress/utils" "2.0.0-beta.61"
-
 "@vuepress/plugin-medium-zoom@2.0.0-beta.61":
   version "2.0.0-beta.61"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.61.tgz"
@@ -1290,7 +1281,7 @@
     medium-zoom "^1.0.8"
     vue "^3.2.47"
 
-"@vuepress/plugin-nprogress@2.0.0-beta.61", "@vuepress/plugin-nprogress@^2.0.0-beta.61":
+"@vuepress/plugin-nprogress@2.0.0-beta.61":
   version "2.0.0-beta.61"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-nprogress/-/plugin-nprogress-2.0.0-beta.61.tgz"
   integrity sha512-d36NEy8hkZaAuqMZec9VTEjozPkj9Wvimyx+AgJYpYN8JDBrWB58r9Gu9xHf8/PVeEnKayggD2xJYpGKtQ2lrw==

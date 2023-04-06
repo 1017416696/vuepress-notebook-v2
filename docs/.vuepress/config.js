@@ -1,7 +1,4 @@
 import { defineUserConfig } from 'vuepress'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { nprogressPlugin } from '@vuepress/plugin-nprogress'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { recoTheme } from 'vuepress-theme-reco'
 import {themeConfig} from "./config/index";
 
@@ -10,27 +7,12 @@ export default defineUserConfig({
     title: 'Penrose个人笔记',
     description: '记录自己在Obsidian中的笔记',
     head: [
-        ['link', { rel: 'icon', href: '/icon.svg' }],
+        ['link', { rel: 'icon', href: '/icon.svg' }]
     ],
     host: '10.1.11.162',
     markdown: {
         lineNumbers: true
     },
-    plugins: [
-        googleAnalyticsPlugin({
-            id: 'G-J7KE7WZYK7'
-        }),
-        nprogressPlugin(),
-//        docsearchPlugin({
-//            algolia: {
-//                appId: '38R2J3MTQC',
-//                apiKey: '583d3caf699630b08a9bc2d12d599701',
-//                indexName: '10.1.11.162:8080',
-//                // inputSelector: '### REPLACE ME ####',
-//                // algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
-//                // debug: false // Set debug to true if you want to inspect the dropdown
-//            },
-//        }),
-    ],
+// 具体对 recoTheme 主题的配置在 ./config/index.js 文件中
     theme: recoTheme(themeConfig)
 })
